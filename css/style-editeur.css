@@ -1,0 +1,83 @@
+
+*{
+    margin: 0px;
+}
+body {
+    background: #faf4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.pub {
+    border-radius: 12px 0 12px 0;
+    background: #f5f5f5;
+    border: none;
+    color: #555;
+    font: bold 12px Verdana;
+    padding: 6px 0 6px 0;
+    box-shadow: 1px 1px 3px #999;
+    width: 100px;
+}
+
+table {
+    border: medium solid #6495ed;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td {
+    font-family: sans-serif;
+    border: thin solid #6495ed;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+label {
+    text-decoration: underline;
+}
+
+/********Style Ajouter un article admin*********/
+.yassine{
+    background-color: #ffffff;
+    height: 50px;
+    width: 97%;
+    margin: auto;
+    padding-top: 23px;
+    text-align: center;
+    border: 1px black solid;
+    box-shadow: 10px 10px 0px 0px rgba(196, 102, 0,0.6);
+}
+.tableadmin{
+    width:762px; 
+    box-shadow: 6px 6px 0px 0px rgba(155, 82, 85,0.6);
+    margin: 10px;
+}
+.logo {
+    font-family: Georgia;
+    font-size: 35px;
+    display: flex;
+}
+
+.logo>:nth-child(3) {
+    font-family: 'Dancing Script', cursive;
+    font-size: inherit;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/***********Style Scroll UP ************/
+#scrollUp {
+    position: fixed;
+    bottom: 18px;
+    right: 1%;
+    opacity: 0.5;
+}

@@ -1,0 +1,18 @@
+Il existe qu'un seul administrateur : 
+
+login : admin
+Mot de passe : admin 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Il existe plusieurs utilisateurs : 
+
+login : yassine
+Mot de passe : yassine
+
+login : Halis
+Mot de passe : admin 
+
+login : ivan
+Mot de passe : ivan
+
+login : test
+Mot de passe : test

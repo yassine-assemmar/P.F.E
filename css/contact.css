@@ -1,0 +1,16 @@
+  
+    
+textarea {
+    height: 200px;
+    width: 300px;
+}
+
+.container_contact {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+legend {
+    font-size: 30px;
+}

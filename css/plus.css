@@ -1,0 +1,193 @@
+   
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.bodyplus {
+    background: #222222;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FFF;
+}
+
+.container {
+    max-width: 60em;
+    min-width: 45em;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    z-index: 3;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 2em;
+    text-align: center;
+    transition: all .2s;
+}
+
+nav li:last-child {
+    padding-right: 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+nav a:hover {
+    color: #FFA4A4;
+}
+
+#icon {
+    display: inline-block;
+    padding-top: .7em;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#nav-bg {
+    background: rgba(71, 245, 77, 0.4);
+    position: fixed;
+    height: 5em;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.headerplus {
+    position: relative;
+    background: linear-gradient(rgba(255, 151, 41, 0.9), rgba(195, 151, 212, 0.9));
+    padding: 8em 0 6em;
+    z-index: 2;
+}
+
+.headerplus h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#about {
+    background: #faf4f4;
+    height: 70em;
+    padding: 2em 0;
+}
+
+#about p {
+    line-height: 1.5em;
+    font-size: 1em;
+    margin: 0;
+    color: #000000;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: justify;
+}
+
+p {
+    line-height: 1.5em;
+    font-size: 1em;
+    margin: 0;
+    color: #ffffff;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#emblem {
+    height: 2em;
+    width: auto;
+    display: inline-block;
+    margin-top: 1.5em;
+}
+
+.memberbox {
+    display: inline-block;
+    overflow: hidden;
+    height: 20em;
+    width: 33%;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.avatar {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    border-radius: 50%;
+}
+
+.quotation {
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+
+/* *******************logo**************** */
+
+.logo {
+    font-family: Georgia;
+    font-size: 35px;
+    display: flex;
+}
+.logo>:nth-child(2){
+    color: #28a745;
+}
+.logo>:nth-child(3) {
+    font-family: 'Dancing Script', cursive;
+    font-size: inherit;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* **********************contact***************** */
+textarea {
+    height: 200px;
+    width: 300px;
+}
+
+.container_contact {
+    display: flex;
+    justify-content: space-evenly;
+    /* text-align: center; */
+    padding-top: 15%;
+    color: gray;
+}
+
+legend {
+    font-size: 30px;
+}

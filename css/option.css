@@ -1,0 +1,391 @@
+  
+label {
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+select {
+    width: 50%;
+    text-align: center;
+}
+
+.sectionpublication {
+    width: 18%;
+    margin: auto;
+}
+
+input.error {
+    background: red;
+    color: white;
+}
+
+.message-error {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.publication {
+    height: 200px;
+    width: 400px;
+}
+
+.publication-label {
+    text-decoration: underline;
+}
+
+.image {
+    width: 400px;
+}
+
+.photo_user {
+    width: 100px;
+    border-radius: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0px;
+}
+
+
+/********** PAGE PROFIL **********/
+
+
+/* Classe qui contient la photo de profil et les informations de l’utilisateur */
+
+.profil {
+    justify-content: center;
+    border: none;
+    padding: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+
+/* Classe qui modifie la photo de profil */
+
+.photo-user {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0px;
+    margin-right: 10em;
+}
+
+
+/* Classe qui modifie les informations de l’utilisateur */
+
+.profil-info {
+    text-align: left;
+    margin: auto;
+}
+
+
+/* Classe container qui modifie les photos des articles postés par l’utilisateur */
+
+.photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 63%;
+    margin: auto;
+}
+
+
+/* Classe qui modifie chaque photo de chaque article posté */
+
+.photo-article {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    cursor: pointer;
+    z-index: -10;
+}
+
+body {
+    background: #faf4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding-top: 0px;
+}
+
+.head-profil {
+    width: 45%;
+    margin: auto;
+}
+
+.profil-wrap {
+    margin: 0px;
+    padding-top: 70px;
+}
+
+.profil-pseudo {
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1px;
+}
+
+.mailprofil {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(39, 131, 192);
+}
+
+.mailprofil:hover {
+    color: rgb(83, 83, 238);
+}
+
+
+/* ------------------------INSCRIPTION---------------- */
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 23.8px;
+}
+
+h3 {
+    font-size: 18.2px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: rgb(60, 81, 102);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -otransition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.btn-primary {
+    background: #28a745;
+    color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: #1754d1;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -obox-shadow: none;
+    box-shadow: none;
+}
+
+.btn-default {
+    background: #666666;
+    color: #fff;
+}
+
+.inputstyle {
+    width: 100%;
+    display: block;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+
+.mar-b-0 {
+    margin-bottom: 0 !important;
+}
+
+a {
+    color: #28a745;
+}
+
+a:hover {
+    color: #fb8200;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.bodylogout {
+    background: linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.form-wizard {
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    max-width: 540px;
+}
+
+.steps {
+    margin: 40px 0;
+    overflow: hidden;
+}
+
+.steps ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.steps ul li {
+    float: left;
+    color: #fff;
+    width: 110px;
+    text-align: center;
+    padding: 0 15px;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out 0;
+    -moz-transition: all 0.4s ease-in-out 0;
+    -ms-transition: all 0.4s ease-in-out 0;
+    -otransition: all 0.4s ease-in-out 0;
+    transition: all 0.4s ease-in-out 0;
+}
+
+.steps ul li:hover,
+.steps ul li.active {
+    color: #28a745;
+}
+
+.steps ul li:hover span,
+.steps ul li.active span {
+    background: #28a745;
+    color: #fff;
+}
+
+.steps ul li:hover::after,
+.steps ul li.active::after {
+    background: #28a745;
+    width: 100%;
+}
+
+.steps ul li::before,
+.steps ul li::after {
+    content: "";
+    position: absolute;
+    left: -50%;
+    top: 22px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    -webkit-transition: all 0.4s ease-in-out 0;
+    -moz-transition: all 0.4s ease-in-out 0;
+    -ms-transition: all 0.4s ease-in-out 0;
+    -otransition: all 0.4s ease-in-out 0;
+    transition: all 0.4s ease-in-out 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -otransform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.steps ul li::after {
+    width: 0;
+}
+
+.steps ul li span {
+    display: block;
+    margin: 0 auto 15px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background: #fff;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 300;
+    color: #000;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.4s ease-in-out 0;
+    -moz-transition: all 0.4s ease-in-out 0;
+    -ms-transition: all 0.4s ease-in-out 0;
+    -otransition: all 0.4s ease-in-out 0;
+    transition: all 0.4s ease-in-out 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -oborder-radius: 2px;
+    border-radius: 2px;
+}
+
+.steps ul li:first-child::before,
+.steps ul li:first-child::after {
+    display: none;
+}
+
+.form-container {
+    clear: both;
+    display: none;
+    left: 100%;
+    background: #fff;
+    padding: 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -oborder-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    -ms-box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    -obox-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+.form-container.active {
+    display: block;
+}
+
+.form-title {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.form-title::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80px;
+    height: 2px;
+    background: #28a745;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -otransform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+/* ***********************Footer*************************** */
+footer {
+    border-top: 1px solid;
+    border-bottom: 1px dashed white;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+}
+footer>a{
+    margin: 0 40px;
+}
